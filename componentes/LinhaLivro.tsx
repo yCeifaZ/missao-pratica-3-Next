@@ -27,6 +27,7 @@ export const LinhaLivro: React.FC<LinhaLivroProps> = ({ livro, excluir }) => {
       <td className="col-2">
         <ul>{autoresHtml}</ul>
       </td>
+      
     </tr>
   );
 };
